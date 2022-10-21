@@ -1,0 +1,113 @@
+
+/* Đây là nơi style các thứ chỉ dành riêng cho một loại thiết bị nào đó */
+
+
+/* Responsive cho mobile */
+
+@media (max-width: 46.1875em)  /* 739px */
+{ 
+        #header {
+        overflow: hidden;
+        }
+    
+        #header .mobile-menu-btn {
+            display: block;
+        }
+    
+        #header .search-btn {
+            display: none;
+        }
+
+    #nav {
+        display: block;
+    }
+
+    #nav li a
+    {
+        padding: 1px 24px;
+    }
+
+    #nav > li {
+        display: block;
+    } 
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+    
+    #content .member-img {
+        width: 60%;
+    }
+    .contact-form {
+        margin-top: 32px;
+    }
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+    
+    .s-col-full,
+    .s-full-width {
+        width: 100% !important;
+    }
+    
+    #footer .socials-list {
+        font-size: 38px;
+    }
+}
+
+
+
+/* Responsive cho tablet */
+
+@media (min-width: 46.25em) and (max-width: 63.9375em)  /* 740 - 1023*/
+{
+    #footer .socials-list {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 63.9375em) /* 1023px */
+{
+    .btn {
+        padding: 16px 16px;
+    }
+    #nav .subnav a {
+        padding: 5px 12px;
+    }
+    .contact-form .form-control {
+        padding: 15px;
+        font-size: 16px;
+    }
+    .contact-info {
+        line-height: 2;
+    }
+    
+    .contact-submit-btn {
+        font-size: 16px;
+    }
+
+    #footer .socials-list a {
+        margin: 0 8px;
+    }
+
+    #footer .copyright a {
+        padding: 12px 0px;
+        display: inline-block;
+    }
+}
+
+/* Responsive cho PC*/
+
+@media (min-width: 64em) /* 1024px */
+{
+
+}
